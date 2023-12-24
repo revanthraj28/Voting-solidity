@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "greet",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"scripts/Bootcamp/1stcontract.sol": "Helloworld"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"scripts/Bootcamp/1stcontract.sol": {
+			"keccak256": "0x0809f31bf14c7f0dcadf243956e407764ac9f0bca9dea5908fa2953e68ff5e02",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://348fa430cb235e7acbe30c2e9a95f1d8e5a4a4dfab88eec4b1e69b75ccdf0ee9",
+				"dweb:/ipfs/QmZjAcCQYDd1xSL2n7yHAyAnmc5iAhdFxMbofWSuTWZqWh"
+			]
+		}
+	},
+	"version": 1
+}

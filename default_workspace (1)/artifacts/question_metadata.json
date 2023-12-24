@@ -1,0 +1,93 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addrs",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "j",
+						"type": "string"
+					}
+				],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addrs",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "j",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "i",
+						"type": "uint256"
+					}
+				],
+				"name": "set",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"mapping.sol": "question"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"mapping.sol": {
+			"keccak256": "0xf58833a5a923a2f917de1a10a3d494647f0a90c1a8ad4a0fbfae0d6c25a7bd53",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1c631e724dcf419da413481ed9639d06d22ac9ffbda79e65e414cbf3d59b8211",
+				"dweb:/ipfs/QmWa5orPv6wg744ABgiTDsuREaBVtnirz4e4u1ADK89kyp"
+			]
+		}
+	},
+	"version": 1
+}
